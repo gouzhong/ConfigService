@@ -9,8 +9,8 @@ spring:
     username: root
     password: root
 mybatis-plus:
-  mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml
-  type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
+  mapper-locations: classpath:cn/isyellowstar/aigou/mapper/*Mapper.xml
+  type-aliases-package: cn.isyellowstar.aigou.domain,cn.isyellowstar.aigou.query
 eureka:
   client:
     service-url:
